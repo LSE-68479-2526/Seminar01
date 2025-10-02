@@ -1,0 +1,135 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red180\green36\blue25;\red47\green180\blue29;
+\red159\green160\blue28;\red46\green174\blue187;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c76411\c21697\c12527;\cssrgb\c20241\c73898\c14950;
+\cssrgb\c68469\c68012\c14211;\cssrgb\c20199\c73241\c78251;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 Last login: Thu Oct  2 14:41:45 on ttys000\
+(base) hs@Heeseos-MacBook-Air ~ % cd LSE-MY-472-AT25 \
+(base) hs@Heeseos-MacBook-Air LSE-MY-472-AT25 % pwd\
+/Users/hs/LSE-MY-472-AT25\
+(base) hs@Heeseos-MacBook-Air LSE-MY-472-AT25 % cd ~    \
+(base) hs@Heeseos-MacBook-Air ~ % ls -1 | wc -l\
+      13\
+(base) hs@Heeseos-MacBook-Air ~ % cd LSE-MY-472-AT25 \
+(base) hs@Heeseos-MacBook-Air LSE-MY-472-AT25 % git clone https://github.com/LSE-68479-2526/Seminar01.git\
+Cloning into 'Seminar01'...\
+remote: Enumerating objects: 4, done.\
+remote: Counting objects: 100% (4/4), done.\
+remote: Compressing objects: 100% (3/3), done.\
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\
+Receiving objects: 100% (4/4), done.\
+(base) hs@Heeseos-MacBook-Air LSE-MY-472-AT25 % cd -1\
+cd: no such entry in dir stack\
+(base) hs@Heeseos-MacBook-Air LSE-MY-472-AT25 % cd seminar01\
+(base) hs@Heeseos-MacBook-Air seminar01 % pwd\
+/Users/hs/LSE-MY-472-AT25/seminar01\
+(base) hs@Heeseos-MacBook-Air seminar01 % git status\
+On branch main\
+Your branch is up to date with 'origin/main'.\
+\
+Changes not staged for commit:\
+  (use "git add <file>..." to update what will be committed)\
+  (use "git restore <file>..." to discard changes in working directory)\
+	\cf3 modified:   README.md\cf2 \
+\
+no changes added to commit (use "git add" and/or "git commit -a")\
+(base) hs@Heeseos-MacBook-Air seminar01 % git clone week01\
+fatal: repository 'week01' does not exist\
+(base) hs@Heeseos-MacBook-Air seminar01 % git clone https://github.com/lse-my472/lse-my472.github.io/tree/e72e3215901e602020ba80fd4e3e3424ecb4174b/week01\
+Cloning into 'week01'...\
+fatal: repository 'https://github.com/lse-my472/lse-my472.github.io/tree/e72e3215901e602020ba80fd4e3e3424ecb4174b/week01/' not found\
+(base) hs@Heeseos-MacBook-Air seminar01 % git statue\
+git: 'statue' is not a git command. See 'git --help'.\
+\
+The most similar command is\
+	status\
+(base) hs@Heeseos-MacBook-Air seminar01 % git.\
+zsh: command not found: git.\
+(base) hs@Heeseos-MacBook-Air seminar01 % ls     \
+01-core-tools.qmd	03-exercises-part1.qmd	README.md\
+02-git-setup.qmd	03-exercises-part2.qmd\
+(base) hs@Heeseos-MacBook-Air seminar01 % git status\
+On branch main\
+Your branch is up to date with 'origin/main'.\
+\
+Changes not staged for commit:\
+  (use "git add <file>..." to update what will be committed)\
+  (use "git restore <file>..." to discard changes in working directory)\
+	\cf3 modified:   README.md\cf2 \
+\
+Untracked files:\
+  (use "git add <file>..." to include in what will be committed)\
+	\cf3 01-core-tools.qmd\cf2 \
+	\cf3 02-git-setup.qmd\cf2 \
+	\cf3 03-exercises-part1.qmd\cf2 \
+	\cf3 03-exercises-part2.qmd\cf2 \
+\
+no changes added to commit (use "git add" and/or "git commit -a")\
+(base) hs@Heeseos-MacBook-Air seminar01 % git add 01-core-tools.qmd\
+(base) hs@Heeseos-MacBook-Air seminar01 % git add 02-git-setup.qmd\
+(base) hs@Heeseos-MacBook-Air seminar01 % git add 03-exercises-part1.qmd\
+(base) hs@Heeseos-MacBook-Air seminar01 % git add 03-exercises-part2.qmd\
+(base) hs@Heeseos-MacBook-Air seminar01 % git status\
+On branch main\
+Your branch is up to date with 'origin/main'.\
+\
+Changes to be committed:\
+  (use "git restore --staged <file>..." to unstage)\
+	\cf4 new file:   01-core-tools.qmd\cf2 \
+	\cf4 new file:   02-git-setup.qmd\cf2 \
+	\cf4 new file:   03-exercises-part1.qmd\cf2 \
+	\cf4 new file:   03-exercises-part2.qmd\cf2 \
+\
+Changes not staged for commit:\
+  (use "git add <file>..." to update what will be committed)\
+  (use "git restore <file>..." to discard changes in working directory)\
+	\cf3 modified:   README.md\cf2 \
+\
+(base) hs@Heeseos-MacBook-Air seminar01 % git commit -m upload seminar file\
+error: pathspec 'seminar' did not match any file(s) known to git\
+error: pathspec 'file' did not match any file(s) known to git\
+(base) hs@Heeseos-MacBook-Air seminar01 % git commot "upload seminar01 file"\
+git: 'commot' is not a git command. See 'git --help'.\
+\
+The most similar command is\
+	commit\
+(base) hs@Heeseos-MacBook-Air seminar01 % git commit -m "upload seminar01"\
+[main 2fe2e9b] upload seminar01\
+ 4 files changed, 610 insertions(+)\
+ create mode 100644 01-core-tools.qmd\
+ create mode 100644 02-git-setup.qmd\
+ create mode 100644 03-exercises-part1.qmd\
+ create mode 100644 03-exercises-part2.qmd\
+(base) hs@Heeseos-MacBook-Air seminar01 % git log\
+\cf5 commit 2fe2e9b63ea204afd0ec73ebf27546bf8448ad59 (
+\f1\b \cf6 HEAD -> \cf4 main
+\f0\b0 \cf5 )\cf2 \
+Author: Heeseo <heeeso22@gmail.com>\
+Date:   Thu Oct 2 16:13:57 2025 +0100\
+\
+    upload seminar01\
+\
+\cf5 commit 646884fda0c89f37aeff3dfa038dac55eccfd7b9 (
+\f1\b \cf3 origin/main
+\f0\b0 \cf5 , 
+\f1\b \cf3 origin/HEAD
+\f0\b0 \cf5 )\cf2 \
+Author: Heeseo Lee <H.Lee81@lse.ac.uk>\
+Date:   Thu Oct 2 15:45:29 2025 +0100\
+\
+    Initial commit\
+(base) hs@Heeseos-MacBook-Air seminar01 % git push \
+Enumerating objects: 7, done.\
+Counting objects: 100% (7/7), done.\
+Delta compression using up to 10 threads\
+Compressing objects: 100% (6/6), done.\
+Writing objects: 100% (6/6), 16.63 KiB | 16.63 MiB/s, done.\
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0\
+To https://github.com/LSE-68479-2526/Seminar01.git\
+   646884f..2fe2e9b  main -> main\
+(base) hs@Heeseos-MacBook-Air seminar01 % \
+}
